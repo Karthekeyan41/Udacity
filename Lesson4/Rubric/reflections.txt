@@ -1,0 +1,17 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+I have learned about span and the use of paragraphs during the project. It was very helpful to remember the syntax of image and for a hyper link
+
+Th easiest part is the way the code has been already present and I had to copy paste the text. I would appreciate the effort the team has put on our behalf. This made the task easy as to only think on the necessary stuffs.
+
+Nothing has been difficult
+
+I remembered the lectures and its concepts so when necessary I used google the class notes to rethink of the HTML elements which needs to be used.
