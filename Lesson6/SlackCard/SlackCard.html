@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html class="Slack Card">
+<head>
+  <meta charset="utf-8" />
+  <title>Lesson 6 Slack Card</title>
+  <style>
+
+  /* Style the Profile card*/
+  #ProfileCard {
+    width: 325px;
+    box-shadow: 10px 10px 25px grey;
+    border-radius: 4px;
+  }
+
+  #ProfileCard .Image {
+    width: 100%;
+  }
+
+  /*styling the top section of the card */
+  #ProfileCard .Description {
+    border: 1px solid grey;
+    width: 50%;
+    margin-top: -60px;
+    padding-left: 10px;
+    border-bottom: 1px solid grey;
+  }
+
+ .Description .Name {
+    margin: 0;
+    color: white;
+  }
+
+  .Description .ProfileDescription {
+    margin: 0;
+    color: white;
+  }
+
+  .OnlineStatus {
+    margin-top: 20px;
+    border: 1px solid grey;
+  }
+
+  #ProfileCard .OnlineStatus .Time {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  #ProfileCard .Description .Name {
+    margin: 0;
+  }
+
+  #ProfileCard .Actions {
+    padding-left: 10px;
+    width: 80%;
+  }
+
+  .Actions .profile-action{
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .Actions .profile-action:hover {
+    background-color: blue;
+  }
+
+  </style>
+</head>
+<!-- Begining of the body of the html-->
+<body>
+  <div id="ProfileCard">
+    <img class="Image" src="image/profile-placeholder.svg" alt=""/>
+    <div class="Description">
+      <h3 class="Name">Udacity Student</h3>
+      <p class="ProfileDescription">
+        Learner Extraordinaire
+      </p>
+    </div>
+
+    <!-- Next Div section to show the date and Time-->
+    <div class="OnlineStatus">
+      <div class="Time">
+        12:34 PM local time
+      </div>
+    </div>
+
+    <!-- The bottom div to hold the buttons-->
+    <div class="Actions">
+      <button class="profile-action">View preferences</button>
+      <button class="profile-action">Open account settings</button>
+      <button class="profile-action">Edit your profile</button>
+      <button class="profile-action">View your files</button>
+      <button class="profile-action">Set yourself away</button>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
