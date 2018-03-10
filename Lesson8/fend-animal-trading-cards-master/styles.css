@@ -1,0 +1,7 @@
+/* add your CSS here */
+.AnimalCard {
+  /*changing the property values of the base div*/
+  /*add the shadow property*/
+  box-shadow: 10px 10px 10px grey;
+
+}
