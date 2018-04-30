@@ -1,0 +1,42 @@
+/* add your CSS here */
+.Animal {
+  /*changing the property values of the base div*/
+  /*add the shadow property*/
+  box-shadow: 10px 10px 4px grey;
+  border: 0.5px groove grey;
+
+}
+
+.Information {
+  border: 0.5px groove grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+.Animal .Image {
+  margin-left: 10px;
+}
+
+.Animal .Name {
+  margin-left: 10px;
+}
+
+.Information .BasicFact {
+  /*fonts are made italic*/
+  font-style: italic;
+  padding: inherit;
+}
+
+.Information .InterestingFacts {
+  /*InterestingFacts name style or the lis styling*/
+  list-style: none;
+  display: inline-block;
+}
+
+.Information .InterestingFacts .Name {
+  font-weight: bold;
+}
+
+.Information .Description {
+  padding: inherit;
+}
